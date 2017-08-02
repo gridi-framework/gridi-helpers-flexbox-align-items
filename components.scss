@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-flexbox-alignment-items-classes {
+    .#{$class} {
+        @include align-items($value);
+    }
+}
